@@ -4,9 +4,9 @@ This repository contains codes, raw data and parameter files that used to reprod
 
 ### Layout
 
-- `calvados/` Scripts to run CALVADOS 2 simulation with CALVADOS-RNA model implemented.  
+- `calvados/` Codes and installation guide to run CALVADOS 2-RNA simulation as implemented in this work.  
 - `analysis/` Scrtipts to run analysis 
-- `all_atom/` All-atom structures of UCAAUC from [Bergonzo ,C., Grishaev, A., Bottaro, S., RNA, 28, 937–946 (2022)], and HCG_models from [Pietrek, L. M., Stelzl, L. S., Hummer, G., J. Chem. Theory Comput., 20, 2246–2260 (2024).]
+- `all-atom/` All-atom structures of UCAAUC from [Bergonzo ,C., Grishaev, A., Bottaro, S., RNA, 28, 937–946 (2022)], and HCG_models from [Pietrek, L. M., Stelzl, L. S., Hummer, G., J. Chem. Theory Comput., 20, 2246–2260 (2024).]
 - `single-chain/` Input files into calvados for single chain simulations of polyR30 
 - `flory_exponent/` Input files to run single chain simulations of polyR10-100
 - `400-chain/` Input files into calvados for 400-chain simulations of polyR30
