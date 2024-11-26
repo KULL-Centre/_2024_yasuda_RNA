@@ -1,0 +1,38 @@
+box:
+- 30.0
+- 30.0
+- 30.0
+fbase: /home/yasuda/rna/grid_single_chain_293/polyRNA/polyR30_p0a118u118_100/polyR30/293
+ffasta: /home/yasuda/rna/grid_single_chain_293/polyRNA/polyR30_p0a118u118_100/fastabib.fasta
+general_settings:
+  cutoff_lj: 2.0
+  dt: 0.01
+  eps_factor: 0.2
+  k_eq: 0.01
+  res_csv: /home/yasuda/rna/grid_single_chain_293/polyRNA/polyR30_p0a118u118_100/residues.csv
+  slab_eq: false
+  topol: center
+ionic: 0.1
+lipid_settings: {}
+name: polyR30
+pH: 7.0
+protein_settings: {}
+restraint_settings: {}
+rna_settings:
+  rna:
+    polyR30: 1
+  rna_ka: 4.2
+  rna_kb1: 1400.0
+  rna_kb2: 2200.0
+  rna_nb_cutoff: 2.0
+  rna_nb_sigma: 0.4
+  rna_pa: 3.14159265359
+runtime_settings:
+  frestart: restart.chk
+  pfname: CPU
+  restart: checkpoint
+  runtime: 0
+  steps: 20000000
+  threads: 1
+  wfreq: 10000
+temp: 293
