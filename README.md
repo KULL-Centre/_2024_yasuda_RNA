@@ -22,3 +22,7 @@ python prepare_full.py
 cd {name}/{temperature}/
 python run.py
 ```
+
+Continuing simulation can be run in the same directory of previous simulation,
+```
+python run.py
