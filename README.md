@@ -11,6 +11,7 @@ This repository contains codes, raw data and parameter files that used to reprod
 - `flory_exponent/` Input files to run single chain simulations of polyR10-100
 - `400-chain/` Input files into calvados for 400-chain simulations of polyR30
 - `FUSRGG3/`  Input files into calvados for FUSRGG simulations of polyR40
+- `FUSRGG3-1bead` Input files into calvados (CALVADOS package version) for FUSRGG simulations of polyR40 using one-bead-per-nucleotide model.  
 - `MED1/` Input files into calvados for MED1 simulations of polyR40
 - `viewer1.ipynb` Jupyter Notebook to produce plots for the paper figures (Figure 2).
 - `viewer2.ipynb` Jupyter Notebook to produce plots for the paper figures (Figures 3 and 4).
@@ -26,3 +27,8 @@ python run.py
 Continuing simulation can be run in the same directory of previous simulation,
 ```
 python run.py
+
+### CALVADOS package information
+This two-bead-per-nucleotide model is implemented in CALVADOS package. 
+[https://github.com/KULL-Centre/CALVADOS](https://github.com/KULL-Centre/CALVADOS)
+
