@@ -27,6 +27,7 @@ python run.py
 Continuing simulation can be run in the same directory of previous simulation,
 ```
 python run.py
+```
 
 ### CALVADOS package information
 This two-bead-per-nucleotide model is implemented in CALVADOS package. 
